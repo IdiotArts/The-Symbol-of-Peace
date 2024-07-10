@@ -42,18 +42,17 @@ body {
     text-transform: none;
 }
 .buttoner {
-    background-color: green;
     scale: 60% 60%;
     padding:5%;
-    border-style:solid;
-    border: 10% 10%;
-    border-color: peru;
+    margin-bottom: 40%;
+    
 }
 .buttoner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-grow: 2;
+    flex-grow: 0;
+    flex-shrink: -5;
     gap: 1%;
 }
 #one, #two, #three {
@@ -61,3 +60,19 @@ body {
     scale: 200% 200%;
     padding: 1%;
 }
+.footer {
+    background-color: rgb(223, 2, 17);
+    color: rgb(163, 2, 2);
+    padding-top: 10%;
+    text-decoration:none;
+}
+a:link, a:visited {
+    color: white;
+    padding: 10% 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(223, 2, 17);
