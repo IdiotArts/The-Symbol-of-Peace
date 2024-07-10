@@ -4,29 +4,40 @@ body {
     padding: 0px 0px;
     margin: 0;
     overscroll-behavior: auto;
-}
-.backgroundhead {
-    background-color: rgb(255, 0, 0);
-    padding: 5% 0%;
-    margin-top: 0%;
-    position: relative;
-    text-align: center;
+    font-family: sans-serif;
 }
 .heading {
     color: yellow;
     font-family: "impact", sans-serif;
     font-size: 400%;
     text-transform: uppercase;
-}
-#logo {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -100%);
+    text-wrap: nowrap;
+}
+
+.backgroundhead {
+    background-color: rgb(223, 2, 17);
+    padding: .01% 0%;
+    margin-top: 0%;
+    position: relative;
 }
 .video {
     background-color: aqua;
     scale: 60% 60%;
     padding: 2%;
     padding-bottom: 1%;
+}
+.textbox {
+    background-color: yellow;
+    font-family: "impact", sans-serif;
+    text-transform: uppercase;
+    font-size: 200%;
+    scale: 60% 60%;
+    padding: 1%;
+}
+#normaltext {
+    text-transform: none;
 }
