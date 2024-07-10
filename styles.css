@@ -41,3 +41,23 @@ body {
 #normaltext {
     text-transform: none;
 }
+.buttoner {
+    background-color: green;
+    scale: 60% 60%;
+    padding:5%;
+    border-style:solid;
+    border: 10% 10%;
+    border-color: peru;
+}
+.buttoner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 2;
+    gap: 1%;
+}
+#one, #two, #three {
+    background-color: yellow;
+    scale: 200% 200%;
+    padding: 1%;
+}
